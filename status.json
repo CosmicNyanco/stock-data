@@ -1,0 +1,14 @@
+{
+  "generated_at_jst": "2026-11-07 00:05",
+  "last_trade_date": "2026-11-05",
+  "holdings_count": 5,
+  "watchlist_count": 137,
+  "fetch_error_count": 6,
+  "watchlist_updated": "2026-11-06T23:54:31+09:00",
+  "watchlist_age_days": 0,
+  "watchlist_stale": false,
+  "stale_days_threshold": 30,
+  "warnings": [
+    "株価を取得できなかった銘柄: 1777, 231A, 3670, 5579, 7488, 9914"
+  ]
+}

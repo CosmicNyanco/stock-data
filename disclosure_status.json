@@ -1,0 +1,41 @@
+{
+  "generated_at_jst": "2026-11-07 00:09",
+  "days": {
+    "20261106": {
+      "pages": 8,
+      "rows": 767,
+      "matched": 3
+    },
+    "20261105": {
+      "pages": 6,
+      "rows": 536,
+      "matched": 8
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "extra_codes": [
+    "1885",
+    "4042",
+    "7927",
+    "8593",
+    "8750"
+  ],
+  "candidates": [
+    "8706",
+    "8150",
+    "1491",
+    "5482",
+    "287A",
+    "2130",
+    "7927",
+    "3321",
+    "5079",
+    "4028"
+  ],
+  "pdf_texts_saved": 8,
+  "pdf_texts_failed": 0,
+  "new_rows": 11,
+  "total_rows": 11,
+  "codes_watched": 14
+}
