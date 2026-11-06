@@ -1,0 +1,46 @@
+name: daily data
+
+# 平日の17:30(日本時間)に実行。GitHubの混雑で数分〜数十分遅れることがあります。
+# 手動でも実行できます(Actionsタブ → Run workflow)。
+on:
+  schedule:
+    - cron: "30 8 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch prices
+        run: |
+          export WATCHLIST_UPDATED="$(git log -1 --format=%cI -- watchlist.csv)"
+          python fetch_prices.py
+
+      - name: Fetch disclosures
+        continue-on-error: true
+        run: python fetch_disclosures.py
+
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices.csv status.json
+          for f in disclosures.csv disclosure_status.json disclosure_texts; do
+            if [ -e "$f" ]; then git add "$f"; fi
+          done
+          git diff --cached --quiet || git commit -m "daily data"
+          git push
