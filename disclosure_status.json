@@ -1,15 +1,15 @@
 {
-  "generated_at_jst": "2026-11-10 18:23",
+  "generated_at_jst": "2026-11-11 18:29",
   "days": {
+    "20261111": {
+      "pages": 8,
+      "rows": 767,
+      "matched": 0
+    },
     "20261110": {
       "pages": 8,
-      "rows": 741,
-      "matched": 5
-    },
-    "20261109": {
-      "pages": 6,
-      "rows": 592,
-      "matched": 5
+      "rows": 768,
+      "matched": 4
     }
   },
   "errors": [],
@@ -24,18 +24,17 @@
   "candidates": [
     "6927",
     "2130",
+    "5079",
     "6677",
     "416A",
     "7722",
     "7065",
-    "6648",
-    "9698",
-    "6616",
-    "6349"
+    "6349",
+    "6644"
   ],
-  "pdf_texts_saved": 8,
+  "pdf_texts_saved": 0,
   "pdf_texts_failed": 0,
-  "new_rows": 10,
+  "new_rows": 0,
   "total_rows": 24,
-  "codes_watched": 15
+  "codes_watched": 14
 }
