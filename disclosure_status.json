@@ -1,18 +1,20 @@
 {
-  "generated_at_jst": "2026-11-11 18:29",
+  "generated_at_jst": "2026-11-12 18:32",
   "days": {
+    "20261112": {
+      "pages": 12,
+      "rows": 1178,
+      "matched": 8
+    },
     "20261111": {
       "pages": 8,
-      "rows": 767,
-      "matched": 0
-    },
-    "20261110": {
-      "pages": 8,
-      "rows": 768,
-      "matched": 4
+      "rows": 776,
+      "matched": 1
     }
   },
-  "errors": [],
+  "errors": [
+    "PDF 6157 当社及び当社の子会社の従業員に対する譲渡: cryptography>=3.1 is required for AES algorithm"
+  ],
   "warnings": [],
   "extra_codes": [
     "1885",
@@ -23,18 +25,19 @@
   ],
   "candidates": [
     "6927",
+    "1491",
     "2130",
-    "5079",
     "6677",
-    "416A",
     "7722",
     "7065",
+    "3375",
+    "6157",
     "6349",
     "6644"
   ],
-  "pdf_texts_saved": 0,
-  "pdf_texts_failed": 0,
-  "new_rows": 0,
-  "total_rows": 24,
-  "codes_watched": 14
+  "pdf_texts_saved": 7,
+  "pdf_texts_failed": 1,
+  "new_rows": 9,
+  "total_rows": 33,
+  "codes_watched": 15
 }
