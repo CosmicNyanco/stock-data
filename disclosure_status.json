@@ -1,15 +1,15 @@
 {
-  "generated_at_jst": "2026-11-12 18:32",
+  "generated_at_jst": "2026-11-13 18:31",
   "days": {
+    "20261113": {
+      "pages": 12,
+      "rows": 1200,
+      "matched": 0
+    },
     "20261112": {
       "pages": 12,
-      "rows": 1178,
-      "matched": 8
-    },
-    "20261111": {
-      "pages": 8,
-      "rows": 776,
-      "matched": 1
+      "rows": 1180,
+      "matched": 7
     }
   },
   "errors": [
@@ -27,17 +27,16 @@
     "6927",
     "1491",
     "2130",
+    "7927",
     "6677",
     "7722",
     "7065",
-    "3375",
     "6157",
-    "6349",
     "6644"
   ],
-  "pdf_texts_saved": 7,
+  "pdf_texts_saved": 0,
   "pdf_texts_failed": 1,
-  "new_rows": 9,
+  "new_rows": 0,
   "total_rows": 33,
-  "codes_watched": 15
+  "codes_watched": 13
 }

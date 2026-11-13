@@ -1,11 +1,11 @@
 {
-  "generated_at_jst": "2026-11-12 18:29",
-  "last_trade_date": "2026-11-12",
+  "generated_at_jst": "2026-11-13 18:28",
+  "last_trade_date": "2026-11-13",
   "holdings_count": 5,
   "watchlist_count": 137,
   "fetch_error_count": 6,
   "watchlist_updated": "2026-11-06T23:54:31+09:00",
-  "watchlist_age_days": 5,
+  "watchlist_age_days": 6,
   "watchlist_stale": false,
   "stale_days_threshold": 30,
   "warnings": [
